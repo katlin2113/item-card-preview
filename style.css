@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(242, 235, 227);
+  color: rgb(108, 114, 137);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 200;
+  font-size: 14px;
+}
+p {
+  width: 64%;
+  margin-bottom: 20px;
+}
+.item-title {
+  color: rgb(28, 35, 43);
+  margin: 20px 0;
+  width: 60%;
+}
+.item-title,
+.new-price {
+  font-family: "Fraunces", serif;
+}
+
+.product-preview-card {
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  max-width: 700px;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card-info {
+  width: 50%;
+  margin: 30px;
+}
+
+.item-price {
+  display: flex;
+}
+
+.item-price .new-price {
+  color: rgb(60, 128, 103);
+  font-size: 28px;
+}
+.item-price .old-price {
+  text-decoration: line-through;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(60, 128, 103);
+  padding: 16px 16px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
